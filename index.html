@@ -1,109 +1,89 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="tr">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Visionary Housing Initiative</title>
-  <meta name="description" content="Visionary Housing Initiative is an early-stage nonprofit focused on equitable affordable housing in Washington State.">
-  <style>
-    body {
-      margin: 0;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      background: #f6f7f8;
-      color: #111;
-    }
-    header {
-      background: #ffffff;
-      padding: 80px 20px;
-      text-align: center;
-      border-bottom: 1px solid #e5e7eb;
-    }
-    header h1 {
-      font-size: 40px;
-      margin-bottom: 20px;
-    }
-    header p {
-      max-width: 720px;
-      margin: 0 auto;
-      font-size: 18px;
-      line-height: 1.6;
-      color: #333;
-    }
-    section {
-      max-width: 1000px;
-      margin: 80px auto;
-      padding: 0 20px;
-    }
-    section h2 {
-      font-size: 28px;
-      margin-bottom: 20px;
-    }
-    .cards {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-      gap: 30px;
-    }
-    .card {
-      background: #ffffff;
-      padding: 30px;
-      border-radius: 8px;
-      border: 1px solid #e5e7eb;
-    }
-    .card h3 {
-      margin-top: 0;
-      font-size: 20px;
-    }
-    footer {
-      background: #111;
-      color: #fff;
-      text-align: center;
-      padding: 40px 20px;
-      margin-top: 100px;
-      font-size: 14px;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <header class="wrap">
+    <nav class="nav">
+      <div class="brand">Visionary Housing Initiative</div>
+      <div class="links">
+        <a href="#mission">Misyon</a>
+        <a href="#program">Program</a>
+        <a href="#impact">Etki</a>
+        <a href="#contact">İletişim</a>
+      </div>
+    </nav>
 
-<header>
-  <h1>Visionary Housing Initiative</h1>
-  <p>
-    Visionary Housing Initiative is an early-stage nonprofit organization focused on
-    building institutional capacity, advancing predevelopment planning, and supporting
-    equitable affordable housing pathways in Washington State.
-  </p>
-</header>
-
-<section>
-  <h2>What We Do</h2>
-  <div class="cards">
-    <div class="card">
-      <h3>Predevelopment Strategy</h3>
+    <section class="hero">
+      <h1>Uygun fiyatlı konuta erişimi hızlandırıyoruz.</h1>
       <p>
-        We support early-stage housing concepts through feasibility analysis, site planning,
-        and readiness assessments that unlock future development.
+        Yerel ortaklıklar, veri odaklı planlama ve topluluk desteğiyle
+        sürdürülebilir konut çözümleri geliştiriyoruz.
       </p>
-    </div>
-    <div class="card">
-      <h3>Institutional Capacity</h3>
-      <p>
-        We help emerging housing organizations build the internal systems, governance,
-        and partnerships needed to scale responsibly.
-      </p>
-    </div>
-    <div class="card">
-      <h3>Equitable Housing Pathways</h3>
-      <p>
-        Our work centers equity, long-term affordability, and community-driven outcomes
-        across Washington State.
-      </p>
-    </div>
-  </div>
-</section>
+      <div class="cta">
+        <a class="btn primary" href="#contact">İletişime geç</a>
+        <a class="btn" href="#mission">Daha fazla</a>
+      </div>
+    </section>
+  </header>
 
-<footer>
-  © 2025 Visionary Housing Initiative · Washington State
-</footer>
+  <main class="wrap">
+    <section id="mission" class="card">
+      <h2>Misyon</h2>
+      <p>
+        Düşük ve orta gelirli haneler için konuta erişimi kolaylaştırmak;
+        yerel paydaşlarla birlikte finansal olarak uygulanabilir ve ölçeklenebilir
+        projeler üretmek.
+      </p>
+      <ul>
+        <li>Topluluk ihtiyaç analizi</li>
+        <li>Ortaklık & kaynak geliştirme</li>
+        <li>Proje tasarımı & uygulama desteği</li>
+      </ul>
+    </section>
 
+    <section id="program" class="grid">
+      <div class="card">
+        <h3>Ne yapıyoruz?</h3>
+        <p>Projeleri fikirden uygulanabilir plana çeviren bir çerçeve kuruyoruz.</p>
+      </div>
+      <div class="card">
+        <h3>Kiminle?</h3>
+        <p>Yerel STK’lar, belediye paydaşları, fon sağlayıcılar ve topluluk liderleri.</p>
+      </div>
+      <div class="card">
+        <h3>Nasıl ölçüyoruz?</h3>
+        <p>Hane sayısı, maliyet/etki, süre, sürdürülebilirlik metrikleri.</p>
+      </div>
+    </section>
+
+    <section id="impact" class="card">
+      <h2>Hedef Etki</h2>
+      <div class="stats">
+        <div class="stat"><div class="n">3</div><div class="l">Pilot proje</div></div>
+        <div class="stat"><div class="n">12</div><div class="l">Ay yol haritası</div></div>
+        <div class="stat"><div class="n">1</div><div class="l">Topluluk odağı</div></div>
+      </div>
+      <p class="muted">Not: Bu sayılar örnek. Gerçek hedefleri senin planına göre güncelleriz.</p>
+    </section>
+
+    <section id="contact" class="card">
+      <h2>İletişim</h2>
+      <p>E-posta: <a href="mailto:SerkanTemel296@gmail.com">SerkanTemel296@gmail.com</a></p>
+      <p class="muted">İstersen buraya basit bir Google Form linki de ekleyebilirsin.</p>
+    </section>
+  </main>
+
+  <footer class="wrap footer">
+    <span>© <span id="y"></span> Visionary Housing Initiative</span>
+  </footer>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
